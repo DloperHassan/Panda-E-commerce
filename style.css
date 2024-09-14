@@ -1,0 +1,181 @@
+@media(max-width :578px){
+    #cat1,#cat2 , #cat3 {
+        padding: 20px 20px;
+    }
+    #respont{
+        font-size: 20px;
+    }
+    #respon{
+        font-size: 25px;
+    }
+
+    
+    .categoreis{
+        
+    }
+
+}
+
+#carosel{
+    width: 100%;
+    background-image: linear-gradient(30deg,rgb(255, 255, 255),rgb(245, 156, 141));
+    border-radius: 10px;
+}
+#price{
+    color: #ff136f;
+    position: relative;
+    left: 150px;
+    
+   
+}
+.btn{
+    color:white; 
+    background-image: linear-gradient(15deg,rgb(239, 162, 136),#ff136f); 
+    position: relative; 
+    left: 150px; 
+}
+
+#cat1{
+    background-image:linear-gradient(30deg,rgb(143, 115, 3),rgb(250, 231, 128));
+    border-radius: 10px;
+    
+}
+
+#cat2{
+    background-image:linear-gradient(30deg,rgb(248, 13, 76),rgb(247, 132, 159));
+    border-radius: 10px;
+}
+
+#cat3{
+    background-image:linear-gradient(30deg,rgb(8, 56, 249),rgb(114, 171, 249));
+    border-radius: 10px;
+    position: relative;
+     
+}
+#cat1 img,#cat2 img, #cat3 img{
+    position: relative;
+    right: 20px;
+}
+ 
+.categoreis{
+    padding: 50px 20px;
+}
+.categoreis img{
+    width: 120px;
+}
+#cato{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+/* ! shoes start here */
+#shoes img{
+    width: 200px;
+    position: relative;
+    left: 80px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190); 
+}
+#sho{
+    color:white; 
+    background-image: linear-gradient(15deg,rgb(239, 162, 136),#ff136f); 
+    position: relative; 
+    left: 100px; 
+    margin-bottom: 18px;
+}
+#sho:hover{
+    background: rgb(156, 153, 153);
+    background-color: hsl(214, 20%, 40%);
+}
+#sho:active{
+    background-color: hsl(214, 20%, 50%);
+}
+#pric{
+    color: #ff136f;
+    position: relative;
+    left: 120px;
+    
+   
+}
+
+
+/* ? shoes end here */
+
+/* ! Backpack start here */
+#Backpack{
+    padding: 50px 20px;
+}
+
+#Backpack img{
+    width: 220px;
+    position: relative;
+    left: 80px;
+}
+
+
+/*  ?Backpack end here */
+
+
+
+/*! fotter start here */
+
+
+.footer {
+    background: #223C50;
+}
+
+@media only screen and (max-width: 300px) {
+    .content {
+        width: 98%;
+    }
+    .footer-line {
+        width: 100%;
+    }
+    .heading span {
+        padding: 5px;
+        font-size: x-small;
+    }
+    .banner-image img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-line {
+        width: 100%;
+    }
+    .content-card {
+        width: 98%;
+        font-size: small;
+    }
+    .content-body {
+        width: 98%;
+        font-size: small;
+    }
+    .heading {
+        font-size: 55%;
+    }
+    .heading span {
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .footer-line {
+        width: 50%;
+    }
+    .heading {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .footer-res {
+        width: 50%;
+    }
+    .footer-line {
+        width: 50%;
